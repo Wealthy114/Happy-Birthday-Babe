@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#310d1b"><title>To My Love — A Birthday Surprise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="nav"><a class="monogram" href="#">M<span>♥</span></a><div class="nav-note">A LITTLE SURPRISE, MADE WITH LOVE</div><button class="sound-toggle" id="soundToggle" aria-label="Toggle background music">♫ <span>Music off</span></button></header>
+<audio id="bgMusic" loop preload="none"><source src="assets/love-someone.mp3" type="audio/mpeg"></audio>
+<main>
+<section class="intro" id="intro">
+  <div class="intro-frame"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="intro-content">
+    <div class="tiny-crown">✧ &nbsp; A PRIVATE LITTLE CELEBRATION &nbsp; ✧</div><div class="seal">M<span>♥</span></div>
+    <p class="script-line">For the one who has my heart</p><h1>Hey, <em>my love.</em></h1>
+    <p class="intro-text">I made something special for you. Take a breath, turn the sound on, and let me celebrate you.</p>
+    <button class="gold-btn" id="begin">Open your surprise <span>↗</span></button>
+    <p class="micro">BEST EXPERIENCED WITH SOUND ON</p>
+  </div></div>
+  <div class="intro-bottom">SCROLL LESS. FEEL MORE. <span>♡</span></div>
+</section>
+<div id="experience" class="hidden">
+<section class="hero">
+  <div class="hero-copy"><p class="kicker">MY FAVOURITE REASON TO CELEBRATE</p><p class="script-line">Today, the world celebrates you</p>
+    <h1>Happy Birthday,<br><em>my love.</em></h1><p class="hero-text">If I could wrap up every good thing in this world and give it to you, I would. Until then, here's a little piece of my heart.</p>
+    <a href="#letter" class="text-link">READ YOUR LETTER <span>↓</span></a>
+  </div>
+  <div class="hero-portrait"><div class="portrait-glow"></div><img src="assets/my-love-01.jpeg" alt="My love, holding a microphone"><div class="portrait-caption">A BEAUTIFUL SOUL <span>♡</span></div><div class="side-stamp">ONE<br>OF<br>A KIND</div></div>
+  <span class="hero-star star-a">✧</span><span class="hero-star star-b">♡</span>
+</section>
+<section class="quote-strip"><span>♡</span><p>“You make my world a little softer, brighter, and more beautiful.”</p><span>♡</span></section>
+<section class="letter-section" id="letter"><div class="section-heading"><p class="kicker">A NOTE FROM MY HEART</p><h2>Some things are<br><em>better said slowly.</em></h2></div>
+<article class="letter-card"><div class="letter-ornament">✧ &nbsp; WITH LOVE &nbsp; ✧</div><p class="dear">My love,</p>
+<p>Happy birthday, babe. ❤️ Today is a celebration of you: your beautiful heart, your strength, your smile, and all the little things that make you so wonderfully you.</p>
+<p>I pray this new chapter brings you peace that never runs out, laughter that fills your days, opportunities that excite you, and blessings beyond anything you imagined. May every dream you carry find its way into reality.</p>
+<p>Thank you for being you. I hope you always see the beauty in yourself that I see in you. No matter how many birthdays come, I will always be grateful that our paths crossed.</p>
+<p class="signoff">You are loved. Today, tomorrow, and always. <span>♥</span></p><div class="letter-footer">YOURS, WITH ALL MY HEART</div></article></section>
+<section class="gallery-section"><div class="section-heading centered"><p class="kicker">A FEW FRAMES OF YOU</p><h2>Beautiful in every <em>moment.</em></h2><p class="subheading">A little gallery for the person who makes memories feel golden.</p></div>
+<div class="gallery"><figure class="gallery-main"><img src="assets/my-love-02.jpeg" alt="A favourite photo"><figcaption>Effortlessly lovely.</figcaption></figure><figure class="gallery-side"><img src="assets/my-love-03.jpeg" alt="Another favourite photo"><figcaption>Always unforgettable.</figcaption></figure></div>
+<div class="memory-video"><div class="video-copy"><p class="kicker">A MEMORY, JUST FOR US</p><h3>One more little<br><em>moment to replay.</em></h3><p>Press play and enjoy this memory.</p></div><video controls playsinline preload="metadata" poster="assets/my-love-01.jpeg"><source src="assets/our-memory.mp4" type="video/mp4">Your browser does not support video playback.</video></div>
+</section>
+<section class="wish-section"><div class="wish-stars">✧　♡　✧</div><p class="kicker">MY WISH FOR YOU</p><h2>May life love you<br><em>as beautifully as you deserve.</em></h2><p>More joy. More answered prayers. More adventures. More soft days, loud laughter, and reasons to smile.</p><button class="gold-btn" id="wishBtn">Make a wish, babe ✨</button><p class="wish-reveal hidden" id="wishReveal">And my wish? That you never forget how deeply you are cherished. ❤️</p></section>
+<footer><span class="footer-heart">♥</span><p>Made with love, for my love.</p><small>YOUR DAY. YOUR MAGIC. OUR LITTLE MEMORY.</small></footer>
+</div>
+</main>
+<div class="music-dock" id="musicDock"><button id="musicPlay" aria-label="Play or pause music">▶</button><div class="track-info"><b>Love Someone</b><span>Lukas Graham · A little soundtrack for you</span></div><div class="equalizer"><i></i><i></i><i></i><i></i><i></i></div></div>
+<div class="toast" id="toast">A little love is in the air ♡</div>
+<script src="script.js"></script>
+</body></html>
